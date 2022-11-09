@@ -16,3 +16,4 @@ void Update(float dt) {
 void sendUpdatedCp(int cp) {
     Twitch::SendMessage(channel, "!cp " + cp)
 }
+    

@@ -15,9 +15,13 @@ jobs:
     - name: Package
       run: |
         mkdir build
-        tar -cvzf build/twitch-cp-title.op ./*.as ./*.toml
+        mkdir package
+        cp -v *.as *.toml build
+        cd build
+        zip twitch-cp-title.op *
+        cp twitch-cp-title.op ../package/
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: build
+        folder: package
         branch: archives

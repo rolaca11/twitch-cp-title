@@ -3,8 +3,7 @@ name = "Twitch CP Updater"
 author = "Ropi"
 category = "Race"
 
-version = "1.0.0"
+version = "1.2.0"
 
 [script]
-dependencies = [ "CheckpointCounter" ]
-optional_dependencies = ["TwitchBase"]
+dependencies = [ "CheckpointCounter", "TwitchBase" ]

@@ -13,4 +13,5 @@ After the requirements are met, you need to specify, in the plugin settings, whi
 ## Links
 
 Github: [rolaca11/twitch-cp-title](https://github.com/rolaca11/twitch-cp-title)
+
 Openplanet: [Twitch CP Plugin](https://openplanet.dev/plugin/twitchcptitle)

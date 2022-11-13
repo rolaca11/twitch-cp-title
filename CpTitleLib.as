@@ -8,7 +8,7 @@ int _currentCp = -1;
 
 void sendUpdatedCp(int cp) {
     sleep(delay*1000);
-    Twitch::SendMessage(channel, "!cp " + cp)
+    Twitch::SendMessage(channel, "!cp " + cp);
 }
 
 
